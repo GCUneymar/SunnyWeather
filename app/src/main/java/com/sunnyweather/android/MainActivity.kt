@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         if (SunnyWeatherApplication.TOKEN.isEmpty()) {
-            Toast.makeText(this, "请在SunnyWeatherApplication中填入你申请到的令牌值", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "请在SunnyWeatherApplication中填入令牌值", Toast.LENGTH_LONG).show()
             finish()
         }
     }

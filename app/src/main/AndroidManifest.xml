@@ -13,7 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ui.weather.WeatherActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.sunnyweather.android.HomePage"></activity>
+        <activity android:name=".MainActivity"></activity>
+
+        <activity android:name="com.sunnyweather.android.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
